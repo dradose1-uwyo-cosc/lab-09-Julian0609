@@ -178,7 +178,7 @@ my_pizzaria = Pizzaria()
 while True:
     my_pizzaria.placeorder()
     my_pizzaria.getReceipt()
-    print(f"Total orders so far: {my_pizzaria.getNumberOfOrders()}")
+    print(f"Orders placed: {my_pizzaria.getNumberOfOrders()}")
 
 
 
